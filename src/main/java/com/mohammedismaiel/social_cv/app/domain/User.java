@@ -20,13 +20,13 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Entity(name = "users")
 public class User implements Serializable {
+    //TODO #1 fix user domain 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(nullable = false, updatable = false)
     private Long id;
-    private String userId = new UUID(10, 10).toString();
     private String username;
-
+    //TODO #2 fix relations with other entities
     @OneToOne
     private PersonalInfo personalInfo;
     // private String password;
