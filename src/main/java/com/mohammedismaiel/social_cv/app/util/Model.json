@@ -1,0 +1,87 @@
+{
+	"personalInfo":{
+		"firstName":"",
+		"lastName":"",
+		"role":"",
+		"photo":"",
+		"about":"",
+		"roleSumary":"",
+		"birthDate":"",
+		"age":"",
+		"adress":"",
+		"phone":"",
+		"single&married":"",
+		"militaryStatus":"",
+		"email":"",
+		"website":"",
+		"socialMedia":{
+			"linkedIn":"",
+			"gitHub":""
+		}
+	},
+	
+	"adress":{
+		"country":"",
+		"city":""
+	},
+	
+    "education":{
+		"degree":"",
+		"gradDate":"",
+		"gradDepartment":"",
+		"gradSpecialization":"",
+		"course":{
+			"title":"",
+			"dateOfJoin":"",
+			"description":""
+		}
+	},
+	
+    "language":{
+		"name":"",
+		"strength":	""
+	},
+
+	"skills":{
+		"sumary":"",
+		"skill":{
+			"name":"",
+			"description":"",
+			"strength":""
+		}
+	},
+
+	"experience":{
+        "companyName":"",
+		"dateOfJoin":"",
+		"to":"",
+		"role":""
+    },
+	
+	"currentJob":{
+		"companyName":"",
+		"dateOfJoin":"",
+		"role":""
+	},
+
+	"portifoilo":{
+		"sumary":"",
+		"title":"",
+		"photo":"",
+		"info":""
+	},
+	
+	"TESTIMONIALS":{
+		"name":"",
+		"photo":"",
+		"job":"",
+		"description":""
+	},
+	
+	"service":{
+		"title":"",
+		"description":""
+	},
+	
+	"hoppy":""
+}

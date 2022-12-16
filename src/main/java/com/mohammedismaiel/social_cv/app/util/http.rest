@@ -1,0 +1,58 @@
+GET http://localhost:8001/actuator HTTP/1.1
+
+###
+
+GET http://localhost:8001/ HTTP/1.1
+
+### USERS
+GET http://localhost:8001/users/1/personalInfo HTTP/1.1
+
+###
+PUT http://localhost:8001/personalInfo/2 HTTP/1.1
+Content-Type:
+
+
+http://localhost:8001/users/1
+###
+POST http://localhost:8001/users HTTP/1.1
+Content-Type: application/json
+
+
+{
+    "username":"mm"
+}
+
+
+### personal info
+GET http://localhost:8001/personalInfo/2 HTTP/1.1
+
+###
+POST http://localhost:8001/personalInfo HTTP/1.1
+Content-Type: application/json
+
+
+{
+		"firstName":"mm",
+		"lastName":"ss",
+		"role":"prog",
+		"photo":"myphoto",
+		"about":"about me",
+		"roleSumary":"my role is",
+		"age":"22",
+		"phone":"4324324324",
+		"single&married":"single",
+		"militaryStatus":"done",
+		"email":"asd@ad",
+		"website":"www.gfh.cc",
+		"socialMedia":["linked","git"]
+	}
+###
+GET http://localhost:8001/adresses HTTP/1.1
+
+
+###
+GET http://localhost:8001/personalInfo HTTP/1.1
+
+
+###
+GET http://localhost:8001/personalInfo HTTP/1.1
