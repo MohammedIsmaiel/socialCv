@@ -1,27 +1,21 @@
 package com.mohammedismaiel.social_cv.app.domain;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.MappedSuperclass;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@NoArgsConstructor
 @AllArgsConstructor
-@Entity(name = "portifoilos")
-public class Portifoilo {
+@NoArgsConstructor
+@MappedSuperclass
+public class BaseEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(nullable = false, updatable = false)
-    private Long id;
+    private long id;
 
-    private String sumary;
-    private String title;
-    private String photoURL;
-    private String info;
 }

@@ -22,7 +22,8 @@
 	
 	"adress":{
 		"country":"",
-		"city":""
+		"city":"",
+		"street":""
 	},
 	
     "education":{

@@ -13,14 +13,13 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity(name = "personal_info")
 public class PersonalInfo {
 
-    //TODO #3 add validations and base class for ID
+    // TODO #3 add validations and base class for ID
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(nullable = false, updatable = false)

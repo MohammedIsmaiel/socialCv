@@ -7,11 +7,10 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 import lombok.AllArgsConstructor;
-import lombok.Getter;
+import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
 
-@Setter@Getter
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity(name = "addresses")
@@ -20,7 +19,7 @@ public class Adress {
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(nullable = false, updatable = false)
     private Long id;
-
     private String country;
     private String city;
+    private String street;
 }
